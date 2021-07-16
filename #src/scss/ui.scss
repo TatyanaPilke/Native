@@ -18,7 +18,7 @@ slider-arrows {
 	border-radius: 50%;
 	height: 48px;
 	width: 48px;
-	background-color: rgba(204, 121, 224, 0.3);
+	background-color: rgb(127, 55, 243, 0.3);
 	color: $violetColor;
 	font-size: 12px;
 	cursor: pointer;
@@ -41,7 +41,7 @@ slider-arrows {
 	@media (any-hover: hover) {
 		&:hover {
 			color: #fff;
-			background-color: rgba(204, 121, 224, 1);
+			background-color: rgb(127, 55, 243, 0.8);
 		}
 	}
 
