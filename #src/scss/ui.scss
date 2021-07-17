@@ -1,4 +1,10 @@
 //<ОСНОВНОЙ БЛОК>====================================================================================================
+._title {
+	@include adaptiv-value("font-size", 40, 24, 1);
+	font-weight: 700;
+	line-height: 120%;
+	text-align: center;
+}
 
 ._footer-title {
 	@include adaptiv-value("font-size", 24, 20, 1);
@@ -24,14 +30,12 @@ slider-arrows {
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 
-	// .slider-arrow_prev
 	&_prev {
 		&::before {
 			transform: rotate(90deg);
 		}
 	}
 
-	// .slider-arrow_next
 	&_next {
 		&::before {
 			transform: rotate(-90deg);

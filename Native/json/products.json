@@ -1,0 +1,71 @@
+{
+	"products": [
+		{
+			"id": 5,
+			"url": "#",
+			"title": "Black Red White",
+			"text": "Ночная лампа",
+			"labels": "",
+			"image": "05.jpg",
+			"price": "500",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 6,
+			"url": "#",
+			"title": "Cama",
+			"text": "Маленькая кружка",
+			"labels": [
+				{
+					"type": "sale",
+					"value": "-50%"
+				},
+				{
+					"type": "new",
+					"value": "New"
+				}
+			],
+			"image": "06.jpg",
+			"price": "250",
+			"priceOld": "500",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 7,
+			"url": "#",
+			"title": "Wersal",
+			"text": "Симпатичный комплект постельного белья",
+			"labels": [
+				{
+					"type": "sale",
+					"value": "-50%"
+				}
+			],
+			"image": "07.jpg",
+			"price": "1700",
+			"priceOld": "3.400",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 8,
+			"url": "#",
+			"title": "Cama",
+			"text": "Минималистский цветочный горшок",
+			"labels": [
+				{
+					"type": "new",
+					"value": "New"
+				}
+			],
+			"image": "08.jpg",
+			"price": "600",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		}
+	]
+}
