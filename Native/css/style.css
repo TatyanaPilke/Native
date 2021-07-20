@@ -637,6 +637,15 @@ textarea.input {
   text-align: center;
 }
 
+._flyImage._ibg {
+  opacity: 1;
+  position: fixed;
+  z-index: 100;
+  -webkit-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+}
+
 ._footer-title {
   font-size: 24px;
   line-height: 120.8333333333%;
@@ -644,7 +653,7 @@ textarea.input {
   font-weight: 700;
 }
 
-slider-arrows {
+.slider-arrows {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (48px)[2];

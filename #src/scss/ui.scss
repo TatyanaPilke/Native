@@ -6,6 +6,13 @@
 	text-align: center;
 }
 
+._flyImage._ibg {
+	opacity: 1;
+	position: fixed;
+	z-index: 100;
+	transition: all 1s ease 0s;
+}
+
 ._footer-title {
 	@include adaptiv-value("font-size", 24, 20, 1);
 	line-height: 29 / 24 * 100%;
@@ -13,7 +20,7 @@
 	font-weight: 700;
 }
 
-slider-arrows {
+.slider-arrows {
 	display: grid;
 	grid-template-columns: repeat(2, 48px);
 	column-gap: 8px;
