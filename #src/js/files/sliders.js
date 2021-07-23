@@ -84,7 +84,7 @@ if (document.querySelector('.slider-main__body')) {
 		}
 	});
 }
-
+// ======================================================================
 if (document.querySelector('.slider-rooms__body')) {
 	new Swiper('.slider-rooms__body', {
 		observer: true,
@@ -109,7 +109,7 @@ if (document.querySelector('.slider-rooms__body')) {
 		}
 	});
 }
-
+// ====================================================================
 if (document.querySelector('.slider-tips__body')) {
 	new Swiper('.slider-tips__body', {
 		observer: true,
